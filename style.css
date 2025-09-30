@@ -4,18 +4,44 @@ body {
 
     height: 100vh;
     margin: 0;
+
 }
 
 
 main {
-    border: 4px solid rgb(218, 34, 206);
-    
+    border: 8px solid rgb(255, 255, 0);
+    background-color: green;
     padding: 1rem;
-    
-    min-width: 20rem;
+
+    display: flex;
+    gap: 0.5rem;
+    flex-direction: row-reverse;
+    border-radius: 70px;
 }
 
 h1 {
-margin-top: 0;
+    margin-top: 0;
+
+    font-family: "Diplomata SC", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 1.5rem;
+}
+
+
+
+img {
+    max-width: 100%;
+    width: 8rem;
+
+    border-radius: 20px;
+
+}
+
+p {
+
+    max-width: 12rem;
+
+
 
 }
