@@ -12,11 +12,9 @@ main {
     border: 8px solid rgb(255, 255, 0);
     background-color: green;
     padding: 1rem;
-
-    display: flex;
-    gap: 0.5rem;
-    flex-direction: row-reverse;
-    border-radius: 70px;
+    font-size: 1rem;
+    border-radius: 15px;
+    width: 10rem;
 }
 
 h1 {
@@ -25,16 +23,16 @@ h1 {
     font-family: "Diplomata SC", serif;
     font-weight: 400;
     font-style: normal;
-    font-size: 1.5rem;
+    font-size: 0.7rem;
 }
 
 
 
 img {
     max-width: 100%;
-    width: 8rem;
-
-    border-radius: 20px;
+    width: 100%;
+    aspect-ratio: 12/8;
+    border-radius: 1x;
 
 }
 
@@ -42,6 +40,36 @@ p {
 
     max-width: 12rem;
 
+}
 
+a {
+   
+    text-decoration: none;
+    color:brown
+}
+a :hover {
+    text-decoration: underline;
+    font-size: 10rem; 
+}
 
+.card {
+    background-color: bisque;
+    transition: border-color 5s ease-in-out;
+
+}
+.card:hover {
+    border-color: blueviolet;
+    transform: 100.5%;
+
+}
+
+li {
+
+    font-size:0.5rem;
+    list-style: none;
+}
+
+ul{
+
+    list-style: none;
 }
